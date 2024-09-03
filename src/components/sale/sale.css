@@ -1,0 +1,81 @@
+.sale{
+  background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+  ;
+  margin-bottom: 190px;
+}
+
+
+.sale-content{
+  display: flex;
+  column-gap: 62px;
+}
+.sale-img{
+  align-self:flex-start;
+  max-width: 991px;
+}
+.sale-text{
+  max-width: 666px;
+  margin: 0 auto;
+  padding: 128px 0 155px;
+  
+}
+.sale-title{
+  font-size: 111.61px;
+  font-weight: 900;
+  line-height: 137.19px;
+  text-align: left;
+  margin-bottom: 33px;
+}
+.highlight{
+  position: relative;
+  display: inline-block;
+}
+.highlight span{
+  position: relative;
+}
+.highlight::before{
+  content: '';
+  position: absolute;
+  display: block;
+  top: 5px;
+  bottom: 10px;
+  left: -30px;
+  right: -20px;
+  background-color: #fff;
+  transform: rotate(-2deg);
+}
+.sale-voucher{
+  max-width: 643px;
+  font-size: 36.04px;
+  font-weight: 500;
+  line-height: 52.32px;
+  letter-spacing: -0.02em;
+  margin-bottom: 41px;
+}
+.sale-terms{
+  max-width: 492px;
+  margin-bottom: 78px;
+}
+.sale-terms span{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52.32px;
+  letter-spacing: 0.02em;  
+}
+.sale-terms p{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+}
+.sale-btn{
+  padding: 28px 41px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+
+}

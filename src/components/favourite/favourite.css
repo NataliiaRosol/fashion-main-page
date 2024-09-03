@@ -1,0 +1,27 @@
+.favourite{
+  margin-bottom: 150px;
+}
+.favourite-header{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0.06em;
+  margin-bottom: 118px;
+  position: relative;
+}
+.favourite-header::before{
+  position: absolute;
+  content: '';
+  display: inline-block;
+  background-image: url(./../../img/icons/decor-yellow.svg);
+  width: 190px;
+  height: 32px;
+  top: 25px;
+  left: 320px;
+  z-index: -1;
+}
+.favourite-cards{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 47px;
+}

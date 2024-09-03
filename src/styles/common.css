@@ -1,0 +1,20 @@
+:root{
+  --textColor: #000;
+  --yellow: #ebd96b;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color:var(--textColor)
+}
+.container{
+  max-width: 1780px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.title{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0.06em;
+}
