@@ -6,6 +6,7 @@ import Sale from './components/sale/Sale.jsx'
 import Favourite from './components/favourite/Favourite.jsx'
 import Voucher from './components/voucher/Voucher.jsx'
 import Contacts from './components/contacts/Contacts.jsx'
+import Footer from './components/footer/Footer.jsx'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Favourite/>
       <Voucher/>
       <Contacts/>
+      <Footer/>
     </div>
   )
 }
