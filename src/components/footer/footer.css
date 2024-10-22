@@ -8,6 +8,10 @@
 }
 .footer-social{
   max-width: 415px;
+  padding-left: 15px;
+}
+.footer-links-item{
+  padding-left: 15px;
 }
 .social-header{
   font-size: 40px;
@@ -31,6 +35,15 @@
   display: flex;
   gap: 0 14px;
 }
+.social-links-item img{
+  transition: 0.5s;
+}
+.social-links-item img:hover{
+  opacity: 1;
+}
+.social-links-item img:not(:hover){
+  opacity: 0.5;
+}
 .footer-links{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -51,4 +64,8 @@
 .link-item{
   color: rgba(142, 142, 142, 1);
   cursor: pointer;
+  transition: 0.5s;
+}
+.link-item:hover{
+  color: var(--yellow);
 }

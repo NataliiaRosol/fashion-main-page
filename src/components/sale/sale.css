@@ -10,7 +10,7 @@
   column-gap: 62px;
 }
 .sale-img{
-  align-self:flex-start;
+  align-self:flex-end;
   max-width: 991px;
 }
 .sale-text{
@@ -69,6 +69,8 @@
   letter-spacing: -0.02em;
 }
 .sale-btn{
+  display: inline-block;
+  /* display: block; */
   padding: 28px 41px;
   background-color: #000;
   color: #fff;
@@ -77,5 +79,8 @@
   font-weight: 700;
   line-height: 42px;
   letter-spacing: 0.02em;
-
+  transition: all 0.5s;
+}
+.sale-btn:hover{
+  transform: scale(110%);
 }

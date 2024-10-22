@@ -40,6 +40,8 @@
   width: 190px;
   height: 32px;
   background-image: url(./../../img/icons/decor-yellow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .promo-btn{
   padding: 19px 40px;
@@ -52,7 +54,11 @@
   line-height: 45px;
   letter-spacing: -0.05em;
   text-align: left;
-  
+  transition: 0.5s;
+}
+.promo-btn:hover{
+  background-color:var(--yellow);
+  color: #000;
 }
 .highltght{
   position: relative;

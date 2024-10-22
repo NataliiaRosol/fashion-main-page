@@ -59,4 +59,9 @@
   line-height: 35px;
   letter-spacing: 0.03em;
   cursor: pointer;
+  transition: 0.5s;
+}
+.contacts-btn:hover{
+  background-color:var(--yellow);
+  color: #000;
 }
